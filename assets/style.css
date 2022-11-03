@@ -1,0 +1,31 @@
+* {
+    background-color: rgb(91, 139, 242);
+}
+
+header {
+    width: 100%;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navbar li {
+    margin: 5px;
+    color: green;
+}
+
+section {
+    display: block
+}
+
+.about {
+    text-align: center;
+}
+
+img  {
+    box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+}
