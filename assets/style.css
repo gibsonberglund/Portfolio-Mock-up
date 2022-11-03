@@ -14,14 +14,12 @@ header h1 {
     padding: 10px;
 }
 
-.navbar {
-    display: flex;
-    flex-wrap: wrap;
-}
+
 
 .navbar li {
     margin: 5px;
     color: green;
+    float: left;
 }
 
 .content {
