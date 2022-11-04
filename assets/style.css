@@ -2,6 +2,7 @@
     background-color: rgb(37, 37, 37);
 }
 
+/*settings for the site title and profile image*/
 header {
     width: 80%;
     display: inline;
@@ -25,6 +26,7 @@ header h1 {
 
 }
 
+/*settings for the navbar and links*/
 nav {
     display: inline;
     float: right;
@@ -42,11 +44,13 @@ nav li {
     color: white;
 }
 
+/*sets the display for all of the following content*/
 .content {
     width: 80%;
     display: inline;
 }
 
+/*styling for the About Me section*/
 .about {
     display: block;
     margin: 30px;
@@ -71,6 +75,7 @@ nav li {
    padding: 10px;
 }
 
+/*styling for the Work/My Projects section and images*/
 .work {
     flex-wrap: wrap;
     border: 3px dashed white;
@@ -95,6 +100,7 @@ nav li {
     direction: column;
 }
 
+/*sets the first image larger than the others*/
 .album {
     max-width: 400px;
     box-shadow: 5px 5px 5px white;
@@ -102,6 +108,7 @@ nav li {
     margin: 5px;
 }
 
+/*styling for the footer*/
 footer {
     border: 3px dashed white;
     margin: 10px;
@@ -122,6 +129,7 @@ footer li{
     margin: 10px;
 }
 
+/*media queries for smaller screen sizes*/
 @media screen and (max-width:810px) {
     footer h3 {
         color: white;
