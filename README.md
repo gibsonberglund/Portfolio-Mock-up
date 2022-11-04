@@ -13,13 +13,9 @@ N/A
 
 No installation necessary, open the application in any web browser.
 
-##
+## Usage
 
-To enlarge images in the Work section, hover over them, as seen here:
-
-```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+Click the links in the navigation bar to scroll down to a given section.
 
 ## Credits
 
