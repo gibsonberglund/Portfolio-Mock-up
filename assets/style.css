@@ -1,49 +1,56 @@
 * {
-    background-color: rgb(91, 139, 242);
+    background-color: rgb(135, 135, 135);
 }
 
 header {
-    width: 100%;
+    width: 80%;
+    display: inline;
 }
 
 header h1 {
-    color: white;
+    color: black;
     font-size: 36px;
     float: left;
     margin-left: 10px;
+    margin-right: 1%;
     padding: 10px;
 }
 
+.profilepic {
+    max-width: 100px;
+}
 
-
-.navbar li {
-    margin: 5px;
+nav li {
+    margin: 15px;
     color: green;
-    float: left;
+    font-size: 20px;
+    flex-flow: column wrap;
 }
 
 .content {
     width: 80%;
-    display: inline-block;
+    display: inline;
 }
 
-
 .about {
-    display: inline-block;
+    display: inline;
 }
 
 .about h2 {
-    color: white;
+    color: black;
     font-size: 34px;
-    border: 3px dashed black;
-    margin: 10px;
     padding: 10px;
-    display: inline-block;
+    width: 300px;
+    display: inline;
 }
 
 .about p {
-   display: inline-block;
    margin-left: 10px;
+   border: 3px dashed black;
+   max-width: 400px;
+   min-width: 100px;
+   font-size: 18px;
+   color: black;
 }
 
 .work {
@@ -65,8 +72,11 @@ header h1 {
     margin: 5px;
 }
 
+.workimage:hover {
+    max-width: 500px;
+}
+
 footer {
-    flex-wrap: wrap;
     border: 3px dashed black;
     margin: 10px;
     padding: 10px;
@@ -76,6 +86,7 @@ footer h3 {
     color: white;
     font-size: 24px;
     float: left;
+    margin-right: 44%;
 }
 
 footer li{
